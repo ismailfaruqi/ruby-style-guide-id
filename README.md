@@ -40,3 +40,24 @@ dapat menulis kode yang dapat dipertahankan oleh programmer Ruby real-world yang
 petunjuk  yang merefleksikan penggunaan di dunia nyata akan terpakai, dan sebuah
 petunjuk yang memegang teguh idealisme yang tertolak oleh orang-orang yang ditujukannya
 beresiko menjadi sia-sia &ndash; betapapun baiknya petunjuk itu.
+
+<!-- The guide is separated into several sections of related rules. I've
+tried to add the rationale behind the rules (if it's omitted I've
+assumed it's pretty obvious). -->
+
+Guide ini dibagi menjadi beberapa bagian dari aturan-aturan yang berhubungan. Saya telah mencoba
+untuk menambahkan alasan di balik aturan-aturan tersebut (dan kalau tidak ada, saya berasumsi
+bahwa alasannya cukup jelas).
+
+<!-- I didn't come up with all the rules out of nowhere - they are mostly
+based on my extensive career as a professional software engineer,
+feedback and suggestions from members of the Ruby community and
+various highly regarded Ruby programming resources, such as
+["Programming Ruby 1.9"](http://pragprog.com/book/ruby4/programming-ruby-1-9-2-0)
+and ["The Ruby Programming Language"](http://www.amazon.com/Ruby-Programming-Language-David-Flanagan/dp/0596516177). -->
+
+Saya tidak membuat-buat aturan tersebut - aturan-aturan itu kebanyakan berdasarkan pengalaman
+saya sebagai seorang software engineer profesional, masukan dan sugesti dari komunitas Ruby, atau
+datang dari berbagai macam sumber-sumber programming Ruby yang sangat terkenal, seperti 
+["Programming Ruby 1.9"](http://pragprog.com/book/ruby4/programming-ruby-1-9-2-0)
+dan ["The Ruby Programming Language"](http://www.amazon.com/Ruby-Programming-Language-David-Flanagan/dp/0596516177).
