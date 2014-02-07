@@ -29,35 +29,35 @@ berguna juga untuk anda [Ruby on Rails 3 & 4 Style Guide](https://github.com/bba
 
 # Petunjuk Style Programming Ruby
 
-<!-- This Ruby style guide recommends best practices so that real-world Ruby
-programmers can write code that can be maintained by other real-world Ruby
-programmers. A style guide that reflects real-world usage gets used, and a
-style guide that holds to an ideal that has been rejected by the people it is
-supposed to help risks not getting used at all &ndash; no matter how good it is. -->
-
 Petunjuk style Ruby ini menyarankan praktek terbaik, sehingga programmer Ruby real-world
 dapat menulis kode yang dapat dipertahankan oleh programmer Ruby real-world yang lain. Sebuah
 petunjuk  yang merefleksikan penggunaan di dunia nyata akan terpakai, dan sebuah
 petunjuk yang memegang teguh idealisme yang tertolak oleh orang-orang yang ditujukannya
 beresiko menjadi sia-sia &ndash; betapapun baiknya petunjuk itu.
 
-<!-- The guide is separated into several sections of related rules. I've
-tried to add the rationale behind the rules (if it's omitted I've
-assumed it's pretty obvious). -->
-
 Guide ini dibagi menjadi beberapa bagian dari aturan-aturan yang berhubungan. Saya telah mencoba
 untuk menambahkan alasan di balik aturan-aturan tersebut (dan kalau tidak ada, saya berasumsi
 bahwa alasannya cukup jelas).
-
-<!-- I didn't come up with all the rules out of nowhere - they are mostly
-based on my extensive career as a professional software engineer,
-feedback and suggestions from members of the Ruby community and
-various highly regarded Ruby programming resources, such as
-["Programming Ruby 1.9"](http://pragprog.com/book/ruby4/programming-ruby-1-9-2-0)
-and ["The Ruby Programming Language"](http://www.amazon.com/Ruby-Programming-Language-David-Flanagan/dp/0596516177). -->
 
 Saya tidak membuat-buat aturan tersebut - aturan-aturan itu kebanyakan berdasarkan pengalaman
 saya sebagai seorang software engineer profesional, masukan dan sugesti dari komunitas Ruby, atau
 datang dari berbagai macam sumber-sumber programming Ruby yang sangat terkenal, seperti 
 ["Programming Ruby 1.9"](http://pragprog.com/book/ruby4/programming-ruby-1-9-2-0)
 dan ["The Ruby Programming Language"](http://www.amazon.com/Ruby-Programming-Language-David-Flanagan/dp/0596516177).
+
+Guide ini masih terus berlanjut - beberapa aturan masih tidak memiliki contoh-contoh, beberapa aturan lain
+tidak memiliki contoh yang menggambarkan aturan tersebut dengan cukup jelas. Dalam waktu dekat, permasalahan
+ini akan diatasi - cukup supaya hal tersebut diperhatikan untuk sekarang.
+
+Anda dapat membuat versi PDF atau HTML dari petunjuk ini menggunakan [Transmuter](https://github.com/TechnoGate/transmuter).
+
+[RuboCop](https://github.com/bbatsov/rubocop) adalah sebuah code analyzer yang berbasis petunjuk ini.
+
+Translasi dari petunjuk ini tersedia dalam bahasa-bahasa berikut ini:
+
+* [Chinese Simplified](https://github.com/JuanitoFatas/ruby-style-guide/blob/master/README-zhCN.md)
+* [Chinese Traditional](https://github.com/JuanitoFatas/ruby-style-guide/blob/master/README-zhTW.md)
+* [French](https://github.com/porecreat/ruby-style-guide/blob/master/README-frFR.md)
+* [Spanish](https://github.com/alemohamad/ruby-style-guide/blob/master/README-esLA.md)
+* [Vietnamese](https://github.com/scrum2b/ruby-style-guide/blob/master/README-viVN.md) 
+
