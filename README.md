@@ -61,3 +61,20 @@ Translasi dari petunjuk ini tersedia dalam bahasa-bahasa berikut ini:
 * [Spanish](https://github.com/alemohamad/ruby-style-guide/blob/master/README-esLA.md)
 * [Vietnamese](https://github.com/scrum2b/ruby-style-guide/blob/master/README-viVN.md) 
 
+## Daftar Isi
+
+* [Layout Source Code](#source-code-layout)
+* [Syntax](#syntax)
+* [Penamaan](#naming)
+* [Komentar](#comments)
+    * [Anotasi Komentar](#comment-annotations)
+* [Kelas](#classes--modules)
+* [Eksepsi](#exceptions)
+* [Koleksi](#collections)
+* [String](#strings)
+* [Ekspresi Regular](#regular-expressions)
+* [Literal Persen](#percent-literals)
+* [Metaprogramming](#metaprogramming)
+* [Lain-lain](#misc)
+* [Tools](#tools)
+
