@@ -78,3 +78,24 @@ Translasi dari petunjuk ini tersedia dalam bahasa-bahasa berikut ini:
 * [Lain-lain](#misc)
 * [Tools](#tools)
 
+## Layout Source Code
+
+> Nearly everybody is convinced that every style but their own is
+> ugly and unreadable. Leave out the "but their own" and they're
+> probably right... <br/>
+> -- Jerry Coffin (on indentation)
+
+* Gunakan `UTF-8` sebagai encoding dari file source code.
+* Gunakan dua **spasi** per level indentasi (alias soft tab). Jangan gunakan hard tab.
+
+    ```Ruby
+    # buruk - empat spasi
+    def some_method
+        do_something
+    end
+
+    # baik
+    def some_method
+      do_something
+    end
+    ```
