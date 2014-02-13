@@ -99,3 +99,21 @@ Translasi dari petunjuk ini tersedia dalam bahasa-bahasa berikut ini:
       do_something
     end
     ```
+* Use Unix-style line endings. (*BSD/Solaris/Linux/OS X users are covered by default,
+  Windows users have to be extra careful.)
+    * If you're using Git you might want to add the following
+    configuration setting to protect your project from Windows line
+    endings creeping in:
+
+    ```bash
+    $ git config --global core.autocrlf true
+    ```
+
+* Gunakan akhiran baris Unix-style. (*pengguna BSD/Solaris/Linux/OS X telah tersetting secara default,
+  pengguna Windows harus ekstra hati-hati.)
+    * Kalau anda menggunakan Git, anda mungkin perlu menambahkan setting konfigurasi
+    berikut untuk melindungi project anda supaya tidak tersisipi oleh akhiran baris Windows:
+
+    ```bash
+    $ git config --global core.autocrlf true
+    ```
