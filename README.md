@@ -117,3 +117,20 @@ Translasi dari petunjuk ini tersedia dalam bahasa-bahasa berikut ini:
     ```bash
     $ git config --global core.autocrlf true
     ```
+
+* Jangan gunakan `;` untuk memisahkan statement and ekspresi. akibatnya - gunakan satu baris per ekspresi.
+
+    ```Ruby
+    # buruk
+    puts 'foobar'; # titik koma yang mubazir
+
+    puts 'foo'; puts 'bar' # dua ekspresi dalam satu baris
+
+    # baik
+    puts 'foobar'
+
+    puts 'foo'
+    puts 'bar'
+
+    puts 'foo', 'bar' # ini khususnya berlaku untuk puts
+    ```
