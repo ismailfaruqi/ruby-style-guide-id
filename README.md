@@ -134,3 +134,16 @@ Translasi dari petunjuk ini tersedia dalam bahasa-bahasa berikut ini:
 
     puts 'foo', 'bar' # ini khususnya berlaku untuk puts
     ```
+* Gunakan format single-line untuk definisi kelas tanpa body.
+
+    ```Ruby
+    # buruk
+    class FooError < StandardError
+    end
+
+    # baik
+    class FooError < StandardError; end
+
+    # baik
+    FooError = Class.new(StandardError)
+    ```
