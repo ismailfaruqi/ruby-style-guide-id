@@ -147,3 +147,34 @@ Translasi dari petunjuk ini tersedia dalam bahasa-bahasa berikut ini:
     # baik
     FooError = Class.new(StandardError)
     ```
+
+* Hindari method single-line. Meski hal tersebut agak populer di luar sana,
+  ada beberapa keganjilan mengenai definisi syntax-nya yang menyebabkan 
+  penggunaannya tidak diajurkan. Pokoknya - seharusnya tidak boleh ada
+  lebih dari satu ekspresi dalam sebuah method single-line.
+
+    ```Ruby
+    # buruk
+    def too_much; something; something_else; end
+
+    # lumayan - perhatikan bahwa tanda ; yang pertama diperlukan
+    def no_braces_method; body end
+
+    # lumayan - perhatikan bahwa tanda ; yang kedua opsional
+    def no_braces_method; body; end
+
+    # lumayan - sintaks-nya valid, tapi dengan tidak adanya tanda ; menyebabkan sulit dibaca
+    def some_method() body end
+
+    # baik
+    def some_method
+      body
+    end
+    ```
+
+    Satu pengecualian terhadap rule ini adalah method tanpa body.
+
+    ```Ruby
+    # baik
+    def no_op; end
+    ```
