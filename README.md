@@ -178,3 +178,59 @@ Translasi dari petunjuk ini tersedia dalam bahasa-bahasa berikut ini:
     # baik
     def no_op; end
     ```
+
+* Gunakan spasi di antara operator, sesudah tanda koma, titik, dan titik koma, di sekitar `{`
+  dan sebelum `}`. Whitespace mungkin (kebanyakan) tidak relevan bagi interpreter Ruby,
+  tapi penggunaan whitespace dengan benar merupakan kunci bagi penulisan kode yang mudah dibaca.
+
+    ```Ruby
+    sum = 1 + 2
+    a, b = 1, 2
+    1 > 2 ? true : false; puts 'Hi'
+    [1, 2, 3].each { |e| puts e }
+    ```
+
+    Sebuah pengecualian tunggal, mengenai operator, adalah operator eksponensial:
+    
+    ```Ruby
+    # buruk
+    e = M * c ** 2
+
+    # baik
+    e = M * c**2
+    ```
+
+    `{` and `}` deserve a bit of clarification, since they are used
+    for block and hash literals, as well as embedded expressions in
+    strings. For hash literals two styles are considered acceptable.
+
+    `{` dan `}` memerlukan sedikit klarifikasi, karena keduanya digunakan untuk
+    literal block dan hash, dan juga sebagai ekspresi embedded di dalam string.
+    Untuk literal hash, dua gaya berikut ini dianggap diterima.
+
+    ```Ruby
+    # baik - spasi sesudah { dan sebelum }
+    { one: 1, two: 2 }
+
+    # baik - tanpa spasi sesudah { dan sebelum }
+    {one: 1, two: 2}
+    ```
+
+    Varian pertama sedikit lebih terbaca (dan bisa dibilang lebih populer
+    di komunitas Ruby secara umum). Varian kedua memiliki kelebihan dalam
+    menambahkan perbedaan visual antara literal block dan hash. Apapun yang
+    anda gunakan - gunakanlah secara konsisten.
+
+    Sebagai ekspresi embedded, ada juga dua opsi yang dapat diterima:
+
+    ```Ruby
+    # baik - tanpa spasi
+    "string#{expr}"
+
+    # ok - bisa dibilang lebih terbaca
+    "string#{ expr }"
+    ```
+
+    Gaya pertama sangat populer dan anda disarankan untuk menggunakannya. 
+    Di lain pihak, gaya kedua (bisa dibilang) sedikit lebih mudah terbaca.
+    Sementara untuk hash - pilihlah satu gaya dan gunakanlah secara konsisten
